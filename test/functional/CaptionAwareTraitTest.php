@@ -39,6 +39,22 @@ class CaptionAwareTraitTest extends TestCase
     }
 
     /**
+     * Tests whether a valid instance of the test subject can be created.
+     *
+     * @since [*next-version*]
+     */
+    public function testCanBeCreated()
+    {
+        $subject = $this->createInstance();
+
+        $this->assertInternalType(
+            'object',
+            $subject,
+            'An instance of the test subject could not be created'
+        );
+    }
+
+    /**
      * Test the caption getter and setter methods to ensure correct value assignment and retrieval.
      *
      * @since [*next-version*]
