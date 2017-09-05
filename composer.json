@@ -1,6 +1,6 @@
 {
-    "name": "dhii/human-readable-helper-base",
-    "description": "Helper functionality related to human readable strings",
+    "name": "dhii/human-readable-abstract",
+    "description": "Common abstract functionality related to human readable strings",
     "type": "library",
     "license": "MIT",
     "authors": [
